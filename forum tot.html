@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Fòrums</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet'>
+        <link rel="stylesheet" href="estils.css">
+    </head>
+
+    <body style="background-color: rgb(233, 236, 239);">
+        <nav class="navbar navbar-expand-md fixed-top" id="barraPrincipal" style="width: 100%;">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item" style="color: var(--rosaClar); font-family: Lobster; font-size: larger; font-weight: 500; 
+                    background-color: var(--rosaObscur); border-color: var(--rosaObscur); margin-top: 2mm;"> Gaudeix amb salut</li>
+                </ul>
+
+                </div><div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        
+        <br></br>
+
+            <h1 class="display-3">Sense pèls a la llengua</h1>
+
+    <!--Menú fix ---------------------------------------------------------------------------------------> 
+    <nav class="navbar navbar-expand-md navbar-light bg-light navbar-custom" id="navmenu">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item prinpage">
+              <a class="nav-link" href="principal.html">Pàgina Principal</a>
+            </li>
+            <li class="nav-item propostes">
+              <a class="nav-link" href="propostes totes.html">Propostes Sexuals</a>
+            </li>
+            <li class="nav-item ets">
+              <a class="nav-link" href="ets.html">Malalties TS</a>
+            </li>
+            <li class="nav-item dropdown forum">
+              <div class="enllac">
+              <a class="nav-link dropdown-toggle" href="forum tot.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Fòrums
+              </a></div>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="forum tot.html">Propostes</a>
+                <a class="dropdown-item" href="forum.html">ETS</a>
+                <a class="dropdown-item" href="forum tot.html">En cas d'abús...</a>
+                <a class="dropdown-item" href="forum tot.html">Menstruació</a>
+                <a class="dropdown-item" href="forum tot.html">Productes</a>
+                <a class="dropdown-item" href="forum tot.html">Feminisme</a>
+                <a class="dropdown-item" href="forum tot.html">Literatura Eròtica</a>
+              </div>
+            </li>
+            <li class="nav-item consultori">
+              <a class="nav-link" href="#" >Consultori</a>
+            </li>
+            <li class="nav-item abus">
+              <a class="nav-link" href="#">En cas d'abús...</a>
+            </li>
+            <li class="nav-item menstruacio">
+              <a class="nav-link" href="#">Menstruació</a>
+            </li>
+            <li class="nav-item productes">
+              <a class="nav-link" href="#">Productes</a>
+            </li>
+            <li class="nav-item feminisme">
+              <a class="nav-link" href="#" >Feminisme</a>
+            </li>
+            <li class="nav-item literatura-erotica">
+              <a class="nav-link" href="#">Literatura Eròtica</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---------------------------------------------------------------------------------------------------> 
+
+
+        <!--Menú pantalla petita------------------------------------------------------------------------->
+    <div class="menu_bar">
+        <a class="nav-link dropdown-toggle titol_s" href="forum.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menú
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item" href="principal.html">Pagina principal</a>
+            <a class="dropdown-item" href="propostes totes.html">Propostes sexuals</a>
+            <a class="dropdown-item" href="ets.html">Malalties TS</a>
+            <a class="dropdown-item" href="forum tot.html">Fòrum</a>
+            <a class="dropdown-item" href="#">Consultori</a>
+            <a class="dropdown-item" href="#">En cas d'abús...</a>
+            <a class="dropdown-item" href="#">Menstruació</a>
+            <a class="dropdown-item" href="#">Productes</a>
+            <a class="dropdown-item" href="#">Feminisme</a>
+            <a class="dropdown-item" href="#">Literatura Eròtica</a>
+          </div>
+      </div>
+
+      <div class="jumbotron" style="width: page-width;">
+        <div class="container">
+            <h3 style="color: cadetblue;">Fòrums de les diferents temàtiques</h3>
+            <ul>
+              <a class="btn botoTemaPrincipal" id="btnPropostes" href="#">Propostes sexuals</a>
+              <a class="btn botoTemaPrincipal" id="btnETS" href="forum.html">Malalties de transmissió</a>
+              <a class="btn botoTemaPrincipal" id="btnFeminisme" href="#">Feminisme</a>
+              <a class="btn botoTemaPrincipal" id="btnRelats" href="#">Relats eròtics</a>
+              <a class="btn botoTemaPrincipal" id="btnAbus" href="#">En cas d'abús...</a>
+              <a class="btn botoTemaPrincipal" id="btnMenstruacio" href="#">Menstruació</a>
+              <a class="btn botoTemaPrincipal" id="btnProductes" href="#" style="color: white; border-color: var(--rosaObscur); background-color: var(--rosaClar);">Productes</a>
+            </ul>
+          </div>
+    <!--------------------------------------------------------------------------------------------------------------->
+
+    </div></div>
+
+    <div style="text-align: center; opacity: 1; display: block; 
+    transform: scaleX(1) scaleY(1); transform-origin: 50% 50% 0px;">
+    <h5 class="widget-title">SENSE PÈLS A LA LLENGUA</h5><div class="uvc-sub-heading">
+    <h4 class="widget-sub-title">Gaudeix amb salut</h4>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+    <script src="app.js"></script>
+    </html>

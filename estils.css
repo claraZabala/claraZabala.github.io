@@ -1,0 +1,466 @@
+
+#menu {
+    color: blueviolet;
+}
+
+    /* Definició de la paleta de colors */
+
+    :root {
+        --carn: rgba(247,233,198);  
+        --rosaClar: rgb(228,124,124);
+        --rosaObscur: rgb(156,52,84);
+        --verdClar: rgb(140,188,164);
+        --verdObscur: rgb(84,108,108); 
+        --verdEnllac: rgb(26, 58, 58);
+      }
+
+body {
+
+    /*url(fotos/madera_rosa.jpg) */
+    background-color: var(--verdClar);
+    background-size: cover;
+    margin-left: 2mm;
+    margin-right: 2mm;
+    background-repeat: no-repeat;
+    margin: 2mm;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: circle;
+}
+
+h1 {
+    color: var(--rosaClar);
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Lobster';
+    margin: 10mm;
+}
+
+h2 {
+
+    color: var(--carn);
+    font-weight:550;
+    font-size: 3rem;
+    text-align: left;
+    margin: 10mm;
+}
+
+h3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaObscur);
+    font-size: 2rem;
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+}
+
+.clarh3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaClar);
+    font-size: 2rem;
+    text-align: left;
+}
+
+.fosch3 {
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    color: var(--rosaObscur);
+    font-size: 2rem;
+    text-align: left;
+}
+
+.titolLateral{
+    font-family: 'Amatic SC';
+    color:  rgb(92, 10, 44);
+    font-size: 5mm;
+    text-align: left;
+}
+
+/**
+* Requadres on ficar text
+*
+*/
+
+.requadre {
+    background: white; 
+    padding: 15px; 
+    border-left: 5px solid var(--rosaObscur);
+    margin-bottom: 5mm;
+}
+
+.requadre2 {
+    background:var(--verdObscur); 
+    color:white; 
+    padding:15px; 
+    margin-bottom: 5mm;
+}
+
+.myBox:hover {
+    background: var(--verdEnllac);
+}
+
+.tooltiptext {
+    opacity: 0;
+    transition: opacity 1s;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  }
+
+.myBox:hover .tooltiptext {
+    opacity: 1;
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  }
+
+.requadreLateral {
+    background: #f7f5f5; 
+    padding: 10px; 
+    margin-right: 5mm;
+    margin-bottom: 5mm;
+    margin-left: 5mm;
+}
+
+.requadreLateral ul {
+    margin:0;
+    padding:0;
+}
+
+.rectangleText {
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid rgba(65, 63, 63, 0.623);
+    color: black;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: rgb(95, 35, 87);
+    color:black;
+}
+
+.btn-secondary {
+    background-color: var(--rosaClar);
+    color: black;
+    border-radius: 3mm;
+}
+
+.btn-outline-primary {
+    border-color: var(--rosaClar);
+    color: var(--rosaClar);
+    lighting-color: var(--verdObscur);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--rosaClar);
+    border-color: var(--rosaObscur);
+    color: var(--rosaObscur);
+    /*background-image: url(fotos/sifilis_0.jpg);*/
+}
+
+.botoTemaPrincipal {
+    font-size: 7mm;
+    font-weight: 500;
+    margin: 5mm;
+    height: 30mm;
+    width: 60mm;
+    border-radius: 2mm;
+}
+
+#btnPropostes{
+    border-color: var(--rosaObscur);
+    background-color: var(--rosaClar);
+    color: white;
+    border-width: 1mm;
+}
+
+#btnPropostes:hover {
+    background-image: url(fotos/propostes2.jpg);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
+}
+
+#btnETS{
+    border-color: var(--verdObscur);
+    background-color: var(--verdClar);
+    color: white;
+    border-width: 1mm;
+}
+
+#btnETS:hover {
+    background-image: url(fotos/vph_1.jpg);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
+}
+
+#btnForum{
+    border-color: rgb(141, 111, 47);
+    background-color: var(--carn);
+    color: rgb(141, 111, 47);
+    border-width: 1mm;
+}
+
+#btnForum:hover {
+    background-image: url(fotos//fff.png);
+}
+
+#btnFeminisme{
+    border-color: var(--rosaObscur);
+    background-color: var(--rosaClar);
+    color: white;
+    border-width: 1mm;
+}
+
+#btnFeminisme:hover {
+    background-image: url(fotos//feminisme.png);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
+}
+
+#btnRelats{
+    border-color: var(--verdObscur);
+    background-color: var(--verdClar);
+    color: white;
+    border-width: 1mm;
+}
+
+#btnRelats:hover {
+    background-image: url(fotos//relats.jpg);
+    background-position: center center;
+    background-size: 220px;
+    width: 60mm;
+    height: 30mm;
+}
+
+#btnConsultori{
+    border-color: rgb(141, 111, 47);
+    background-color: var(--carn);
+    color: rgb(141, 111, 47);
+    border-width: 1mm;
+}
+
+#btnConsultori:hover {
+    background-image: url(fotos//fff.png);
+}
+
+#btnAbus{
+    border-color: var(--rosaObscur);
+    background-color: var(--rosaClar);
+    color: white;
+    border-width: 1mm;
+}
+
+#btnAbus:hover {
+    background-image: url(fotos//noesno.jpg);
+    background-position: center center;
+    background-size: 198px;
+    width: 60mm;
+    height: 30mm;
+    color: var(--rosaObscur);
+}
+
+#btnMenstruacio{
+    border-color: var(--verdObscur);
+    background-color: var(--verdClar);
+    color: white;
+    border-width: 1mm;
+}
+
+#btnMenstruacio:hover {
+    background-image: url(fotos//flor.jpg);
+    background-position: center center;
+    background-size: 198px;
+    width: 60mm;
+    height: 30mm;
+}
+
+#btnProductes{
+    border-color: rgb(141, 111, 47);
+    background-color: var(--carn);
+    color: rgb(141, 111, 47);
+    border-width: 1mm;
+}
+
+#btnProductes:hover {
+    background-image: url(fotos//platan.jfif);
+    background-position: center center;
+    
+    width: 60mm;
+    height: 30mm;
+    background-repeat: no-repeat;
+}
+
+/**
+* Contenidors per a fer columnes dreta i esquerra: navegació local i contextual
+*
+*/
+
+.contenidor {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    right: 0mm;
+    left: 0mm;
+}
+
+.leftThing {
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    left: 0mm;
+    top: 2mm;
+    width: 15%;
+    margin-right: 5mm;
+}
+
+.content {
+    width: 70%;
+    top: 0mm;
+    margin-right: 2mm;
+}
+
+.rightThing {
+    width: 20%;
+    position: sticky;
+    position: -webkit-sticky;
+    align-self: flex-start;
+    right: 0mm;
+    top: 2mm;
+    margin-left: 0mm;
+}
+
+.uvc-heading-spacer .image_only{
+    margin-bottom: 0mm;
+}
+
+
+  /*****
+  * Tot el que fa referència a l'estil de la barra menú superior.
+  * Navegació Global.
+  *
+  ****/
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+  
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+  
+  .dropdown-menu {
+    margin-top: 0;
+  }
+
+
+  .navbar#navmenu{
+      display: flex;
+      height: 25mm;
+      background-color: white;
+      width: fit-content;
+  }
+
+  .nav-item{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      border-bottom-style: solid;
+      margin: 0.3mm;
+      margin-right: 0;
+      margin-left: 0;
+      border-width: 3mm;
+      border-bottom-color: var(--verdObscur);
+  }
+
+
+
+  .form-inline.my-2.my-lg-0 {
+      margin-bottom: 10mm;
+  }
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: var(--rosaObscur);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: var(--rosaObscur);
+    font-family: 'Monoespaciado';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: var(--rosaClar);
+}
+
+#barraPrincipal{
+    background-color: var(--rosaObscur);
+}
+
+ul.navbar-nav.ml-auto li{
+    background-color: rgb(227, 248, 241);
+}
+
+.menu_bar{
+    display: none;
+    background-color: #ebebeb;
+}
+
+.titol_s{
+    color:  rgb(92, 10, 44);
+    font-size: 5mm;
+    text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+
+    nav#menufix {
+        display: none;
+    }
+    
+
+    .menu_bar {
+        display: block;
+    }   
+    
+}
+
+ul.navbar-nav.ml-auto li.nav-item.propostes#props {
+    background-color: rgb(57, 145, 115);
+}
+
+ul.navbar-nav.ml-auto li.nav-item.propostes#ets {
+    background-color: rgb(57, 145, 115);
+}
