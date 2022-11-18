@@ -63,7 +63,7 @@ p {
     text-align: justify;
 }
 
-.nav-link .sense-pels {
+#sense-pels {
     display: none;
     overflow: hidden;
 }
