@@ -63,6 +63,11 @@ p {
     text-align: justify;
 }
 
+.nav-link .sense-pels {
+    display: none;
+    overflow: hidden;
+}
+
 .clarh3 {
     font-family: 'Amatic SC';
     font-weight: 700;
